@@ -1,0 +1,156 @@
+/* admin-styles.css */
+
+/* Estilos generales para el panel de administración */
+.wrap {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #003d80;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table.wp-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table.wp-list-table th,
+table.wp-list-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table.wp-list-table th {
+    background-color: #f1f1f1;
+    text-align: left;
+}
+
+table.wp-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.wp-list-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #003d80;
+}
+
+.button-secondary {
+    background-color: #ccc;
+    color: #333;
+}
+
+.button-secondary:hover {
+    background-color: #bbb;
+}
+
+/* Estilos comunes para formularios */
+.form-table th,
+.form-table td {
+    padding: 10px;
+    border: none;
+}
+
+.form-table input[type="text"],
+.form-table input[type="url"],
+.form-table input[type="number"],
+.form-table input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-table input[type="submit"] {
+    background-color: #0056b3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-table input[type="submit"]:hover {
+    background-color: #003d80;
+}
+
+/* Estilos para mensajes de advertencia */
+.bes-warning {
+    background: #fbf9d8;
+    border: 1px solid #817900;
+    color: #856404;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.bes-warning-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Estilos para tarjetas de información */
+.bes-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.bes-card-header {
+    text-align: center;
+    background-color: #003366;
+    padding: 10px;
+}
+
+.bes-card-header h3 {
+    margin: 0;
+    color: white; /* Texto en blanco */
+}
+
+.bes-card-body {
+    padding: 15px;
+}
+
+.bes-card-body p {
+    margin: 10px 0;
+}
+
+.bes-card-body a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.bes-card-body a:hover {
+    text-decoration: underline;
+}
+
+.bes-card-footer {
+    padding: 15px;
+    text-align: center;
+}
+
+.bes-divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
